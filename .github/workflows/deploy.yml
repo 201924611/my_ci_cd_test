@@ -23,7 +23,7 @@ jobs:
         uses: actions/checkout@v3
         
       - name: Use Nodejs ${{ matrix.node.version }}. 노드 설치
-        uses: action/setup-node@v3
+        uses: actions/setup-node@v3
         with:
           node-version: ${{ matrix.node.version }}
 
