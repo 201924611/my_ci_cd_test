@@ -9,7 +9,7 @@ on:
 # 실제로 할일 jobs
 jobs:
   build:
-    runs_on:  ubuntu-20.04
+    runs-on:  ubuntu-20.04
     # gitaction 수행하기 위한 운영체계 설정(가상 인스턴스)지정
     # 18.04 (X)
     strategy:
